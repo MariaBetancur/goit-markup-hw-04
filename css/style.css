@@ -15,12 +15,23 @@ a:focus {
 a {
   text-decoration: none;
 }
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
 
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .title-web-studio {
@@ -77,16 +88,21 @@ ul {
 }
 .link-menu-head {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
-  margin-left: 93px;
+  gap: 20px;
+}
+.link-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 50px;
 }
 .link-menu-studio-head {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
-  margin-left: 344px;
+  gap: 20px;
 }
 
 .link-menu-studio {
@@ -119,6 +135,8 @@ ul {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  height: 600px;
+  padding: 200px 452px;
 }
 .container-paragraph {
   column-count: 4;
@@ -147,7 +165,7 @@ ul {
 }
 .what-are-we-dedicated-images {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .title-h2 {
   font-size: 36px;
@@ -256,7 +274,7 @@ ul {
   color: #212121;
   text-align: center;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   display: flex;
 }
 .link-menu:hover,
