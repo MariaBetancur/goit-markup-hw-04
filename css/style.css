@@ -124,6 +124,7 @@ ul {
 }
 .title-solutions {
   margin: 25px;
+  width: 700px;
 }
 
 .box-solutions {
@@ -155,6 +156,9 @@ ul {
   justify-content: center;
   flex-direction: column;
 }
+.paragrah-label {
+  display: flex;
+}
 
 .what-are-we-dedicated {
   font-family: var(--brand-font-size), "sans-serif";
@@ -172,6 +176,7 @@ ul {
 .what-are-we-dedicated-images {
   display: flex;
   justify-content: space-between;
+  padding-top: 55px;
 }
 .title-h2 {
   font-size: 36px;
@@ -289,7 +294,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   display: flex;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
 }
 .link-menu:hover,
@@ -326,11 +331,13 @@ ul {
   margin: 0 auto;
   justify-content: center;
   cursor: pointer;
-  padding: 20px 24px;
 }
 .portfolio-elements:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.portfolio-elements-paragrah {
+  padding: 20px 24px;
 }
 .img-portfolio {
   display: block;
