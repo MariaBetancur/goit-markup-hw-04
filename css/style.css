@@ -109,6 +109,7 @@ ul {
   gap: 50px;
 }
 .link-menu-studio-head {
+  font-family: var(--brand-font-size), "sans-serif";
   display: flex;
   align-items: center;
   justify-content: space-between;
