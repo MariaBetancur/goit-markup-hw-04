@@ -172,8 +172,7 @@ ul {
 .paragrah-label {
   display: flex;
 }
-.paragraph-svg:hover,
-.paragraph-svg:focus {
+.paragraph-svg:hover {
   fill: var(--brand-color);
 }
 
@@ -230,7 +229,9 @@ ul {
 .svg-our-team {
   fill: rgb(175, 177, 184);
 }
-.svg-our-team:hover {
+.svg-our-team:hover,
+.svg-our-team:focus,
+.svg-our-team:active {
   fill: var(--brand-color);
 }
 .Regular-customers {
@@ -257,7 +258,9 @@ ul {
   stroke: rgb(175, 177, 184);
 }
 
-.Regular-customers-icons:hover {
+.Regular-customers-icons:hover,
+.Regular-customers-icons:focus,
+.Regular-customers-icons:active {
   fill: var(--brand-color);
 }
 .address {
@@ -433,6 +436,32 @@ ul {
   padding-right: 15px;
   margin: 0 auto;
   padding: 60px 0;
+}
+.found-at:hover {
+  fill: var(--brand-color);
+}
+
+.container-found-at {
+  fill: rgb(175, 177, 184);
+  list-style: none;
+  margin: 0 auto;
+  display: flex;
+  padding: 95px 0px;
+}
+
+.found-at {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.found-at-icon:active,
+.found-at-icon:hover {
+  fill: var(--brand-color);
+}
+.found-at-icon {
+  fill: rgb(175, 177, 184);
 }
 
 h1 {
