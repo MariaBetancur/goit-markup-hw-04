@@ -229,8 +229,8 @@ ul {
 .svg-our-team {
   fill: rgb(175, 177, 184);
 }
-.svg-our-team:hover{
-  var(--brand-color);
+.svg-our-team:hover {
+  fill: var(--brand-color);
 }
 .Regular-customers {
   display: block;
