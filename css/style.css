@@ -115,6 +115,9 @@ ul {
   justify-content: space-between;
   gap: 20px;
 }
+.link-menu-studio-head:hover {
+  fill: var(--brand-color);
+}
 
 .link-menu-studio {
   font-family: var(--brand-font-size), "sans-serif";
@@ -168,6 +171,9 @@ ul {
 }
 .paragrah-label {
   display: flex;
+}
+.paragraph-svg:hover {
+  fill: var(--brand-color);
 }
 
 .what-are-we-dedicated {
@@ -223,6 +229,9 @@ ul {
 .svg-our-team {
   fill: rgb(175, 177, 184);
 }
+.svg-our-team:hover{
+  var(--brand-color);
+}
 .Regular-customers {
   display: block;
 }
@@ -245,6 +254,10 @@ ul {
   justify-content: space-evenly;
   align-items: center;
   stroke: rgb(175, 177, 184);
+}
+
+.Regular-customers-icons:hover {
+  fill: var(--brand-color);
 }
 .address {
   font-family: var(--brand-font-size), "sans-serif";
