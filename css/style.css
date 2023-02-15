@@ -172,7 +172,8 @@ ul {
 .paragrah-label {
   display: flex;
 }
-.paragraph-svg:hover {
+.paragraph-svg:hover,
+.paragraph-svg:focus {
   fill: var(--brand-color);
 }
 
