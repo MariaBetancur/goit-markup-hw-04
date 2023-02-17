@@ -14,7 +14,9 @@ a:focus {
 }
 a {
   text-decoration: none;
+  color: currentColor;
 }
+
 h1,
 h2,
 h3 {
@@ -114,9 +116,15 @@ ul {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  color: #757575;
 }
-.link-menu-studio-head:hover {
+.link-menu-studio-head:hover,
+.link-menu-studio-head:active {
   fill: var(--brand-color);
+  color: var(--brand-color);
+}
+.link-menu-studio-head-svg {
+  color: currentColor;
 }
 
 .link-menu-studio {
@@ -154,7 +162,9 @@ ul {
   justify-content: center;
   flex-direction: column;
   height: 600px;
-  background: url(../images/Images17.jpg) rgb(47, 48, 58);
+  background-image: linear-gradient(to bottom, #2f303a66, #2f303a66),
+    url(../images/Images17.jpg);
+
   gap: 50px;
 }
 .container-paragraph {
@@ -166,11 +176,13 @@ ul {
 .paragraph {
   display: flex;
   text-align: center;
-  justify-content: center;
   flex-direction: column;
+  align-items: center;
+  flex-basis: calc((100% - 90px) / 4);
 }
 .paragrah-label {
   display: flex;
+  gap: 30px;
 }
 .paragraph-svg:hover {
   fill: var(--brand-color);
